@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.contact1{
+    width:100%;
+    background-image: url('../images/bg3.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    align-items: center;
+}
+
+/*Font-styles*/
+.contact1 form{
+    display:grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    width:50%;
+    margin:25px 100px 25px 150px;
+    background-color: rgba(29, 41, 216, 0.2);
+    border: 2px solid blue;
+    box-shadow: inset;
+}
+
+.contact1 form label{
+    display:block;
+    font-size: large;
+    color:black;
+}
+
+#info{
+    padding:15px 10px 15px 10px;
+}
+.contact1 form p{
+    margin: 0;
+}
+
+.contact1 form button , .contact1 form input, .contact1 form textarea{
+    width:100%;
+    padding:10px;
+    border: 1px solid;
+}
+
+.contact1 form button{
+    background-color: rgba(9, 14, 15, 0.86);
+    font-weight: 650;
+    color:white;
+}
+
+.contact1 form button:hover, .contact1 form button:focus{
+    background-color:rgba(3, 6, 7, 0.35) ;
+    color:#ffffff;
+    border:none;
+    transition: background-color 2s ease-out;
+}
+
+h3{
+    color:black;
+    font-size:35px;
+    font-weight: 900;
+    margin: 10px 0;
+    text-align: center;
+    background-color: burlywood;
+}

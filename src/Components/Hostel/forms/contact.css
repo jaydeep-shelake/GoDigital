@@ -1,0 +1,80 @@
+.heading{
+    color:rgb(238, 8, 8);
+    font-size: 50px;
+    text-align: center;
+    font-weight:1500;
+    text-shadow:2px 1px 3px rgba(199, 236, 33, 0.8);
+    text-transform: uppercase;
+    background-image: url('../images/hostel4.jpg');
+    background-repeat: no-repeat;
+    padding:100px 5px 150px 5px;
+    border: 6px solid rgba(241, 209, 25, 0.4);
+}
+
+body{
+    background-color: rgba(137, 226, 226, 0.3);
+}
+
+.cam {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact1{
+    background-color: rgba(137, 226, 226, 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Font-styles*/
+.contact1 form{
+    display:grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    width:50%;
+    margin:25px 100px 25px 150px;
+}
+
+.contact1 form label{
+    display:block;
+    font-size: large;
+    color:black;
+}
+
+#info{
+    padding:15px 10px 15px 10px;
+}
+.contact1 form p{
+    margin: 0;
+}
+
+.contact1 form button , .contact1 form input, .contact1 form textarea{
+    width:100%;
+    padding:10px;
+    border: 1px solid;
+}
+
+.contact1 form button{
+    background-color: rgba(41, 181, 236, 0.76)
+}
+
+.contact1 form button:hover, .contact1 form button:focus{
+    background-color:rgba(114, 168, 175, 0.35) ;
+    color:#ffffff;
+    border:none;
+    transition: background-color 2s ease-out;
+}
+
+h3{
+    color:black;
+    font-size:35px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+ul{
+    list-style:none;
+}
+
+hr{
+    color:black;
+}

@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.contactLeave{
+    width:100%;
+    background-image: url('../images/bg4.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/*Font-styles*/
+.contactLeave form{
+    display:grid;
+    padding: 20px;
+    /*grid-template-columns: 1fr 1fr;*/
+    width:50%;
+    margin:25px 100px 25px 150px;
+    background-color: rgba(29, 132, 216, 0.5);
+}
+
+.contactLeave form label{
+    display:block;
+    font-size: large;
+    color:black;
+}
+
+#info{
+    padding:15px 10px 15px 10px;
+}
+.contactLeave form p{
+    margin: 0;
+}
+
+.contactLeave form button , .contactLeave form input, .contactLeave form textarea{
+    width:100%;
+    padding:10px;
+    border: 1px solid;
+}
+
+.contactLeave form button{
+    background-color: rgba(9, 14, 15, 0.86);
+    font-weight: 650;
+    color:white;
+}
+
+.contactLeave form button:hover, .contactLeave form button:focus{
+    background-color:rgba(3, 6, 7, 0.35) ;
+    color:#ffffff;
+    border:none;
+    transition: background-color 2s ease-out;
+}
+
+h3{
+    color:black;
+    font-size:35px;
+    font-weight: 900;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h5{
+    font-size:17px;
+    text-align: center;
+}
+
+.alacc{
+    color:black;
+    text-align: center;
+}
